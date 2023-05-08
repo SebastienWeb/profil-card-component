@@ -1,3 +1,3 @@
 module.exports = {
-  base: "/<REPO>/",
+  base: "/profil-card-component/",
 };
