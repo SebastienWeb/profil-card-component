@@ -4,20 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./public/assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./public/assets/css/main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/main.css">
   <title>Frontend Mentor | Profile card component</title>
 </head>
 
-<body class="bg-secondary">
-  <main class="container mx-auto">
+<body class="bg-secondary relative">
+  <main class="container mx-auto flex justify-center items-center h-screen">
     <section class="p-4">
-      <div class="w-full mx-auto shadow-cardShadow bg-white rounded-2xl overflow-hidden ">
-        <img class="w-full relative" src="./public/assets/images/bg-pattern-card.svg" alt="Pattern card">
-        <div class="w-[96px] h-[96px] mx-auto">
-          <img class="rounded-full object-cover" src="./public/assets/images/image-victor.jpg" alt="Victor">
+      <div class="w-[326px] mx-auto shadow-cardShadow bg-white rounded-2xl overflow-hidden ">
+        <img class="w-full" src="./assets/images/bg-pattern-card.svg" alt="Pattern card">
+        <div class="w-[96px] h-[96px] mx-auto mt-[-50px] z-[1] relative">
+          <img class="rounded-full object-cover border-white border-[5px]" src="./assets/images/image-victor.jpg"
+            alt="Victor">
         </div>
-        <div class="mt-[72px] text-center">
+        <div class="mt-6 text-center">
           <div class="flex items-center justify-center gap-2">
             <h1 class="text-primary">Victor Crest</h1>
             <span class="block text-[18px] text-tiertary">26</span>
@@ -42,10 +43,6 @@
       </div>
     </section>
   </main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/SebastienWeb">Sébastien web</a>.
-  </div>
 </body>
 
 </html>
